@@ -7,21 +7,27 @@ div{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
+    box-shadow: 0 0 70px rgb(91, 67, 89);
 
 }
 h1{
     color: rgb(207, 146, 193);
     text-align: center;
+    padding: 70px;
+    font-size: 70px;
+    margin-top: auto;
+    
 }
 h1 span{
     color: rgb(163, 89, 146);
 }
 input{
-    padding: 10px;
+    padding: 20px;
     border: none;
     outline: none;
+    font-size: 25px;
 }
 
 button{
@@ -30,7 +36,7 @@ button{
     background-color: rgb(192, 147, 229);
     border-radius: 15px;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     font-size: 15px;
 }
 button:hover{
@@ -44,4 +50,5 @@ a{
 }
 label p{
     color: rgb(171, 125, 214);
+    font-size: 25px;
 }
