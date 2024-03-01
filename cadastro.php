@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cad.css">
+    <link rel="stylesheet" href="cad.css">
     <title>Formulário</title>
 </head>
 <body>
@@ -24,6 +24,11 @@
                 </div>
                 <br><br>
 
+                 <div class="inputBox">
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="labelInput">Digite sua senha</label>
+                </div>
+                <br><br>
                      <div class="inputBox">
                     <input type="tel" name="telefone" id="telefon" class="inputUser" required>
                     <label for="email" class="labelInput">Telefone</label>
@@ -31,13 +36,33 @@
                 <br><br>
 
                 <div class="inputBox">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                    <label for="endereco" class="labelInput"> Nome completo</label>
+                    <input type="date" name="" id="data_nascimento" class="inputUser" required>
+                    <label for="endereco">Data de Nascimento</label>
                 </div>
                 <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Estado</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereco</label>
+                </div>
+                <br><br>
+
+                
                 <input type="submit" name="submit" id="submit">
-</fieldset>
-</form>
-</div>            
+            </fieldset>
+         </form>
+   </div>            
 </body>
 </html>
