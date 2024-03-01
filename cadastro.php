@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cad.css">
+   <link rel="stylesheet" href="css/eduarda.css">
     <title>Formulário</title>
 </head>
 <body>
@@ -58,9 +58,7 @@
                     <label for="endereco" class="labelInput">Endereco</label>
                 </div>
                 <br><br>
-
-                
-                <input type="submit" name="submit" id="submit">
+                <button>Entrar</button>
             </fieldset>
          </form>
    </div>            
